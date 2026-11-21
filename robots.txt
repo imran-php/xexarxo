@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /xexarxo/design/
+
+Sitemap: https://imran-php.github.io/xexarxo/sitemap.xml
