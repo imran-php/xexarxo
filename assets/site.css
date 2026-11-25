@@ -67,3 +67,11 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}body{min-width:0}img,sv
 .school-footer .footer-grid a.btn{width:auto;min-height:32px;padding:3px 0;background:transparent;border:0;color:var(--blue);font-weight:500}
 .school-footer .footer-bottom{align-items:flex-start}.school-footer .footer-bottom>div{display:flex;flex-wrap:wrap;width:auto;gap:8px 24px}.school-footer .footer-bottom a{font-size:13px;min-height:30px}.school-footer .footer-grid{row-gap:32px}.school-footer .footer-grid>div{gap:8px}.school-footer .footer-grid h2{margin-bottom:6px}.school-footer a svg{width:18px;height:18px;flex:0 0 18px}
 @media(max-width:600px){.school-footer .footer-bottom>div{flex-direction:column;align-items:flex-start;gap:4px}.school-footer .footer-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* Consistent diagnostic card actions */
+.fipi-grid article{display:flex;flex-direction:column;gap:12px;height:100%}
+.fipi-grid h3{margin:0 0 auto;min-height:52px;padding-bottom:12px}
+.fipi-grid article>.btn{display:flex;width:100%;height:56px;min-height:56px;margin:0;padding:10px 14px;font-size:15px;line-height:1.3;box-sizing:border-box}
+
+.map-panel{padding:28px;gap:22px;justify-content:flex-start;background:#f7f9fc;min-width:0}.map-heading p{margin-top:12px}.contact-map{width:100%;min-height:500px;flex:1;overflow:hidden;border:1px solid var(--line);border-radius:16px;background:#eaf0f6}.contact-map iframe{display:block;width:100%;height:100%;min-height:500px;border:0}.map-panel>.btn{width:100%;min-height:52px;flex-shrink:0}
+@media(max-width:700px){.map-panel{padding:16px}.map-heading{padding:8px}.contact-map,.contact-map iframe{min-height:500px}}
